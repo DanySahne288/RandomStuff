@@ -1,0 +1,33 @@
+/* Link Colours in Comments */
+body#jira #content .issuePanelWrapper a {
+ 	color: #00CED1 !important;
+}
+
+/* For Labels */
+body#jira #content #details-module .labels .lozenge {
+    background-color: transparent !important;
+    color: #333 !important;
+}
+body#jira #content #details-module .labels .lozenge span, body#jira #content .ghx-extra-field .ghx-extra-field-content span {
+    background-color: white !important;
+    color: #333 !important;
+    margin-right: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+body#jira #content #details-module .labels .lozenge span.rc-label, body#jira #content .ghx-extra-field .ghx-extra-field-content span.rc-label {
+    background-color: #f96e6e !important;
+}
+
+body#jira #content #details-module .labels .lozenge span.rc-label, body#jira #content .ghx-extra-field .ghx-extra-field-content span.rc-label {
+    background-color: #f96e6e !important;
+}
+
+
+body#jira #content #details-module .labels .lozenge span.rc-label-WebSmart, body#jira #content .ghx-extra-field .ghx-extra-field-content span.rc-label-WebSmart {
+    background-color: #53e5e8 !important;
+}
+body#jira #content #details-module .labels .lozenge span.rc-label-Nexus, body#jira #content .ghx-extra-field .ghx-extra-field-content span.rc-label-Nexus {
+    background-color: #e876c9 !important;
+}
