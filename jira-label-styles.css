@@ -1,8 +1,10 @@
-/* Link Colours in Comments */
+/* colour for links in comments */
 body#jira #content .issuePanelWrapper a {
- 	color: #00CED1 !important;
+    color: #00CED1 !important;
 }
-
+body#jira #content .ghx-issue.ghx-flagged, body#jira #content .ghx-issue-compact.ghx-flagged {
+    border: 5px solid #fff999 !important;  
+}
 /* For Labels */
 body#jira #content #details-module .labels .lozenge {
     background-color: transparent !important;
